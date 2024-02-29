@@ -46,7 +46,7 @@ zone={
 
 def json_zone(zone):
     with open('data/zone.json',"w") as zo:
-         json.dump(zone,zo, indent=4)
+        json.dump(zone,zo, indent=4)
 
 #crea un archivo json de activos
 active={
